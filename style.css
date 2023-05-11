@@ -80,3 +80,66 @@ body {
     background-color: rgb(129, 129, 129);
     border-radius: 15px;
 }
+
+.list {
+    margin-top: 20px;
+    margin-left: 15px;
+}
+
+.title {
+    color: white;
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.input__list {
+    margin-left: 10px;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-bottom: none;
+    background: transparent;
+    color: white;
+}
+
+input:focus {
+    outline: none;
+}
+
+::placeholder {
+    color: rgb(167, 167, 167);
+    font-size: 15px;
+}
+
+.line {
+    width: 260px;
+    height: 1px;
+    background-color: white;
+    margin-top: 5px;
+}
+
+.name2 {
+    margin-bottom: 15px;
+}
+
+.select {
+    width: 260px;
+    height: 40px;
+    font-size: 20px;
+    margin-bottom: 15px;
+}
+
+select:focus {
+    outline: none;
+}
+
+.myBtn {
+    width: 110px;
+    height: 40px;
+    border-radius: 5px;
+    background-color: black;
+    color: white;
+    border: none;
+    font-size: 15px;
+    font-weight: bold;
+}
