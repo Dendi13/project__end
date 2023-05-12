@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=1200, initial-scale=1.0">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -23,6 +23,30 @@
         <div class="container">
             <div class="block1">
                 <div class="name1">Диаграмма расходов</div>
+                <div class="diagrame">
+
+                </div>
+                <div class="legend">
+                    <ul class="legend__list">
+                        <li class="legend__item">
+                            <span class="legend__desc">Продукты</span>
+                            <span class="legend__price">2000</span>
+                        </li>
+                        <li class="legend__item">
+                            <span class="legend__desc">Продукты</span>
+                            <span class="legend__price">2000</span>
+                        </li>
+                        <li class="legend__item">
+                            <span class="legend__desc">Продукты</span>
+                            <span class="legend__price">2000</span>
+                        </li>
+                        <li class="legend__item">
+                            <span class="legend__desc">Продукты</span>
+                            <span class="legend__price">2000</span>
+                        </li>
+
+                    </ul>
+                </div>
             </div>
             <div class="block2">
                 <div class="menu">
@@ -30,28 +54,29 @@
                     <div class="text1">Категория</div>
                     <div class="text1">Цена</div>
                 </div>
+                <ul class="list" id="list"></ul>
             </div>
             <div class="block3">
                 <div class="list">
                     <div class="name2">
-                        <div class="title">Товар:</div> 
-                        <input type="text" placeholder="Наименование" class="input__list">
+                        <div class="title">Товар:</div>
+                        <input type="text" placeholder="Наименование" class="input__list" id="input__list">
                         <div class="line"></div>
                     </div>
                     <div class="name2">
-                        <div class="title">Цена:</div> 
-                        <input type="text" placeholder="0" class="input__list">
+                        <div class="title">Цена:</div>
+                        <input type="text" placeholder="0" class="input__list" id="input__price">
                         <div class="line"></div>
                     </div>
                     <div class="name2">
-                        <div class="title">Категория:</div>        
+                        <div class="title">Категория:</div>
                         <select name="select" class="select">
                             <option value="category1">Продукты</option>
                             <option value="category1">ФастФуд</option>
                             <option value="category1">Спорт</option>
                             <option value="category1">Напитки</option>
-                        </select>       
-                        <button class="myBtn" id="myBtn">Добавить</button>          
+                        </select>
+                        <button class="myBtn" id="myBtn">Добавить</button>
                     </div>
                 </div>
             </div>
