@@ -75,9 +75,6 @@ body {
     opacity: 0.6;
     margin-top: 10px;
     border-radius: 10px;
-    display: flex;
-    align-items: center;
-    justify-content: space-around;
 }
 
 .text1 {
@@ -123,13 +120,6 @@ input:focus {
     font-size: 15px;
 }
 
-.line {
-    width: 260px;
-    height: 1px;
-    background-color: white;
-    margin-top: 5px;
-}
-
 .name2 {
     margin-bottom: 15px;
 }
@@ -156,8 +146,12 @@ select:focus {
     font-weight: bold;
 }
 
-#newLi {
-    width: 200px;
-    height: 20px;
-    background-color: black;
+.table {
+    font-size: 25px;
+    color: white;
+    padding-bottom: 10px;
 }
+
+.newTr {}
+
+#newTd {}
