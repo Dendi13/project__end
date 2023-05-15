@@ -155,3 +155,9 @@ select:focus {
     font-size: 15px;
     font-weight: bold;
 }
+
+#newLi {
+    width: 200px;
+    height: 20px;
+    background-color: black;
+}

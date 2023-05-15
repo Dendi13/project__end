@@ -49,12 +49,15 @@
                 </div>
             </div>
             <div class="block2">
-                <div class="menu">
-                    <div class="text1">Наименование</div>
-                    <div class="text1">Категория</div>
-                    <div class="text1">Цена</div>
+                <div class="block2__list">
+                    <div class="menu">
+                        <div class="text1">Наименование</div>
+                        <div class="text1">Категория</div>
+                        <div class="text1">Цена</div>
+                    </div>
+                    <ul class="list" id="list"></ul>
                 </div>
-                <ul class="list" id="list"></ul>
+
             </div>
             <div class="block3">
                 <div class="list">
@@ -66,15 +69,14 @@
                     <div class="name2">
                         <div class="title">Цена:</div>
                         <input type="text" placeholder="0" class="input__list" id="input__price">
-                        <div class="line"></div>
                     </div>
                     <div class="name2">
                         <div class="title">Категория:</div>
-                        <select name="select" class="select">
-                            <option value="category1">Продукты</option>
-                            <option value="category1">ФастФуд</option>
-                            <option value="category1">Спорт</option>
-                            <option value="category1">Напитки</option>
+                        <select name="select" class="select" id="select__category">
+                            <option value="Продукты">Продукты</option>
+                            <option value="ФастФуд">ФастФуд</option>
+                            <option value="Спорт">Спорт</option>
+                            <option value="Напитки">Напитки</option>
                         </select>
                         <button class="myBtn" id="myBtn">Добавить</button>
                     </div>
