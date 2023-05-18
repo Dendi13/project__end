@@ -3,21 +3,29 @@ let input__list = document.querySelector('#input__list');
 let input__price = document.querySelector('#input__price');
 let select__category = document.querySelector('#select__category');
 let table = document.querySelector('#table')
+let tbody = document.querySelector('#tbody')
+
+let purcashes = {};
+
+
+
+
 
 myBtn.addEventListener('click', (evt) => {
-    evt.preventDefault();
-    let name = input__list.value;
-    let prise = input__price.value;
-    let category = select__category.value;
+    purcashes.name = input__list.value;
+    purcashes.prise = input__price.value;
+    purcashes.category = select__category.value;
 
-    let newTr = document.createElement('tr');
-    table.append(newTr);
-    newTr.classList.add('newTr');
+    tbody.insertAdjacentHTML('beforeEnd',
+        `
+    <tr  class  =  "purcashes__item  purcashes__row"  data-category  = "product">
+        <td  class  = "purcashes__td">  ${purcashes.name}</td>
+        <td  class  = "purcashes__td">  ${purcashes.prise}</td>
+        <td  class  = "purcashes__td">  ${purcashes.category}</td>
+    </tr>
+    `
 
-    let newTd = document.createElement('td');
-    newTr.append(newTd);
-    newTd.classList.add('newTd');
-
-    newTr.textContent = `${name} ${price}`
+    )
+    console.log(purcashes)
 
 })

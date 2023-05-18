@@ -152,6 +152,14 @@ select:focus {
     padding-bottom: 10px;
 }
 
-.newTr {}
+#tbody {
+    margin-bottom: 10px;
+}
 
-#newTd {}
+.purcashes__item  {
+
+}
+
+.purcashes__td{
+
+}
