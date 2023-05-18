@@ -18,10 +18,11 @@ myBtn.addEventListener('click', (evt) => {
 
     tbody.insertAdjacentHTML('beforeEnd',
         `
-    <tr  class  =  "purcashes__item  purcashes__row"  data-category  = "product">
+    <tr  class  =  " purcashes__row"  data-category  = "product">
         <td  class  = "purcashes__td">  ${purcashes.name}</td>
         <td  class  = "purcashes__td">  ${purcashes.prise}</td>
         <td  class  = "purcashes__td">  ${purcashes.category}</td>
+        <td class   = "purcashes__td"><i  class  =  "purcashes__item-del  fa-solid  fa-xmark"></i></td>
     </tr>
     `
 

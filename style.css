@@ -75,6 +75,9 @@ body {
     opacity: 0.6;
     margin-top: 10px;
     border-radius: 10px;
+    font-size: 25px;
+    color: white;
+
 }
 
 .text1 {
@@ -147,19 +150,24 @@ select:focus {
 }
 
 .table {
-    font-size: 25px;
-    color: white;
-    padding-bottom: 10px;
+  
 }
 
+td {
+    padding-bottom: 10px;
+  }
+
+tr  {
+
+}
 #tbody {
-    margin-bottom: 10px;
+
 }
 
 .purcashes__item  {
 
 }
 
-.purcashes__td{
+.purcashes__row{
 
 }
