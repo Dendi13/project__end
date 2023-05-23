@@ -29,42 +29,47 @@
                 <div class="legend">
                     <ul class="legend__list">
                         <li class="legend__item">
-                            <span class="legend__desc">Продукты</span>
-                            <span class="legend__price">2000</span>
+                            <div class="legend__sum">
+                                <div class="shar first"></div>
+                                <span class="legend__desc">Продукты</span>
+                            </div>
+                            <span class="legend__price" id="legend__price">0₽</span>
                         </li>
                         <li class="legend__item">
-                            <span class="legend__desc">Продукты</span>
-                            <span class="legend__price">2000</span>
+                            <div class="legend__sum">
+                                <div class="shar second"></div>
+                                <span class="legend__desc">ФастФуд</span>
+                            </div>
+                            <span class="legend__price" id="legend__price">0₽</span>
                         </li>
                         <li class="legend__item">
-                            <span class="legend__desc">Продукты</span>
-                            <span class="legend__price">2000</span>
+                            <div class="legend__sum">
+                                <div class="shar third"></div>
+                                <span class="legend__desc">Спорт</span>
+                            </div>
+                            <span class="legend__price" id="legend__price">0₽</span>
                         </li>
                         <li class="legend__item">
-                            <span class="legend__desc">Продукты</span>
-                            <span class="legend__price">2000</span>
+                            <div class="legend__sum">
+                                <div class="shar fourth"></div>
+                                <span class="legend__desc">Напитки</span>
+                            </div>
+                            <span class="legend__price" id="legend__price">0₽</span>
                         </li>
 
                     </ul>
                 </div>
+
             </div>
             <div class="block2">
                 <div class="block2__list">
-                    <table class="menu" id="table">
-                        <thead>
-                             <tr class="purcashes__item ">
-                                <td>Наименование</td>
-                                <td>Категория</td>
-                                <td>Цена</td>
-                            </tr>
-                        </thead>
-                        <tbody  id="tbody">
-                           
-                        </tbody>
-
-                    </table>
+                    <div class="table">
+                        <div class="str">Товар</div>
+                        <div class="str">Категория</div>
+                        <div class="str">Цена</div>
+                    </div>
+                    <ul class="toList" id="toList"></ul>
                 </div>
-
             </div>
             <div class="block3">
                 <div class="list">
@@ -75,7 +80,7 @@
                     </div>
                     <div class="name2">
                         <div class="title">Цена:</div>
-                        <input type="text" placeholder="0" class="input__list" id="input__price">
+                        <input type="text" placeholder="руб" class="input__list" id="input__price">
                     </div>
                     <div class="name2">
                         <div class="title">Категория:</div>
